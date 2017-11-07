@@ -1,0 +1,134 @@
+body {
+  background-color: #E6ECF0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #6AD2F3;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}
+
+#title {
+  font-family: 'Sumana', serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.first-square {
+  font-family: 'Rokkitt', serif;
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  margin-left: 280px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.reto h1, .reto p {
+  margin: 0;
+  height: 40px;
+}
+
+.reto p {
+  font-size: 20px;
+  height: 20px;
+}
+
+.reto {
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.code {
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  color: #6D97A9;
+  font-size: 15px;
+}
+
+.form {
+  background-color: #fff;
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin-left: 5px;
+  position:relative;
+}
+
+.form textarea {
+  font-family: 'Rokkitt', serif;
+  margin: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width:380px;
+  min-height:50px;
+  height:auto;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+}
+
+.form textarea:focus {
+  border-bottom: 1px solid rgb(62, 189, 201);
+}
+
+#button{
+  font-family: 'Rokkitt', serif;
+  background-color:  #6CD2F5 ;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+#newText {
+  width: 800px;
+  height: auto;
+  margin-left: 280px;
+}
+
+#newText p {
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.char-left {
+  	display: inline-block;
+    margin-left: 270px;
+    font-family: 'Rokkitt', serif;
+}
+
+.blueWarn {
+  color:rgb(68, 156, 213);
+}
+
+.redWarn {
+  color: rgb(231, 42, 23);
+}
