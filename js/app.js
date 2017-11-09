@@ -15,17 +15,14 @@ button.addEventListener('click', function(){
 
   var comments = document.getElementById('comment').value;
   document.getElementById('comment').value = '';
-
-//para deshabilitar el botón cuando el campo de textarea este vacío
-    /*  if (comments.length == 0) {
-        document.getElementById("button").setAttribute("disabled", "true");
-        return false;
-      }else */
 /*
-      if (comments.length > 0) {
-        button.removeAttribute("disabled");
-      }
-*/
+//para deshabilitar el botón cuando el campo de textarea este vacío
+      if (messages.length == 0 || messages == null) {
+        document.getElementById("btn").disabled = true;
+        return false;
+    } else {
+        document.getElementById("btn").disabled = false;
+    }*/
 //función de cuándo fue escrito
 function time_ago(time) {
 
