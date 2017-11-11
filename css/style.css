@@ -1,3 +1,12 @@
+* {
+  font-family: "courier new";
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #E6ECF0;
 }
@@ -21,7 +30,6 @@ header {
   color: #fff;
   font-size: 30px;
   text-align: center;
-  margin-top: -10px;
 }
 
 .first-square {
@@ -34,6 +42,7 @@ header {
   margin-left: 280px;
   margin-top: 20px;
   margin-right: 5px;
+  vertical-align: top;
 }
 
 .reto h1, .reto p {
@@ -70,6 +79,8 @@ header {
   display: inline-block;
   margin-left: 5px;
   position:relative;
+  vertical-align: top;
+  margin-top: 20px;
 }
 
 .form textarea {
@@ -84,10 +95,11 @@ header {
   overflow: hidden;
   resize: none;
   outline: none;
+  border-bottom: 1px solid rgb(149, 149, 149);
 }
 
 .form textarea:focus {
-  border-bottom: 1px solid rgb(62, 189, 201);
+  border-bottom: 2px solid rgb(62, 189, 201);
 }
 
 #button{
@@ -110,6 +122,8 @@ header {
   width: 800px;
   height: auto;
   margin-left: 280px;
+  margin-top: 20px;
+  line-height: 2;
 }
 
 #newText p {
@@ -117,6 +131,7 @@ header {
   margin-bottom: 5px;
   padding: 10px;
   border-radius: 10px;
+  line-height: 2;
 }
 
 .char-left {
